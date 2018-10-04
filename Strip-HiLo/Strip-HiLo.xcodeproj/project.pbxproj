@@ -19,7 +19,11 @@
 =======
 		38FF089221669810006D96DD /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF089121669810006D96DD /* Card.swift */; };
 		8787E2B32166A78E00F2072A /* CardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8787E2B22166A78E00F2072A /* CardController.swift */; };
+<<<<<<< HEAD
 >>>>>>> 4c61ef44ddc554e5a85097875ef0dca7b681ced4
+=======
+		8787E2B52166B45700F2072A /* GamePlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8787E2B42166B45700F2072A /* GamePlayController.swift */; };
+>>>>>>> e92187823c0e90ebd17f1a6004c7bcbe1eabbb05
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +41,11 @@
 =======
 		38FF089121669810006D96DD /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		8787E2B22166A78E00F2072A /* CardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardController.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 >>>>>>> 4c61ef44ddc554e5a85097875ef0dca7b681ced4
+=======
+		8787E2B42166B45700F2072A /* GamePlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayController.swift; sourceTree = "<group>"; };
+>>>>>>> e92187823c0e90ebd17f1a6004c7bcbe1eabbb05
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				8787E2B22166A78E00F2072A /* CardController.swift */,
+				8787E2B42166B45700F2072A /* GamePlayController.swift */,
 			);
 			path = ModelController;
 			sourceTree = "<group>";
@@ -212,7 +221,11 @@
 				8787E2B32166A78E00F2072A /* CardController.swift in Sources */,
 				38FF0877216696AF006D96DD /* ViewController.swift in Sources */,
 				38FF089221669810006D96DD /* Card.swift in Sources */,
+<<<<<<< HEAD
 >>>>>>> 4c61ef44ddc554e5a85097875ef0dca7b681ced4
+=======
+				8787E2B52166B45700F2072A /* GamePlayController.swift in Sources */,
+>>>>>>> e92187823c0e90ebd17f1a6004c7bcbe1eabbb05
 				38FF0875216696AF006D96DD /* AppDelegate.swift in Sources */,
 				38FF0890216697E1006D96DD /* StickFigure.swift in Sources */,
 			);

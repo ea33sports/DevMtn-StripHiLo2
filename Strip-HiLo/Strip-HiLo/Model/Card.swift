@@ -9,17 +9,9 @@
 import Foundation
 
 struct DeckDictionary: Decodable {
-    
-    // This property is on the top level of the JSON
+
     // MARK: - Properties
     let cards: [Card]
-    
-    // We don't have to use this because 'cards' matches the JSON
-    //    private enum: CodingKeys: String, CodingKey {
-    //        case cards = "cards"
-    //
-    //    }
-    
 }
 
 struct Card: Decodable {

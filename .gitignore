@@ -22,6 +22,7 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
+Strip-HiLo/Strip-HiLo.xcodeproj/project.pbxproj
 
 ## Obj-C/Swift specific
 *.hmap
