@@ -12,9 +12,9 @@
 		38FF087A216696AF006D96DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FF0878216696AF006D96DD /* Main.storyboard */; };
 		38FF087C216696B0006D96DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38FF087B216696B0006D96DD /* Assets.xcassets */; };
 		38FF087F216696B0006D96DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FF087D216696B0006D96DD /* LaunchScreen.storyboard */; };
-		38FF088C2166977E006D96DD /* StripController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF088B2166977E006D96DD /* StripController.swift */; };
 		38FF0890216697E1006D96DD /* StickFigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF088F216697E1006D96DD /* StickFigure.swift */; };
-		38FF089221669810006D96DD /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF089121669810006D96DD /* Deck.swift */; };
+		38FF089221669810006D96DD /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF089121669810006D96DD /* Card.swift */; };
+		8787E2B32166A78E00F2072A /* CardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8787E2B22166A78E00F2072A /* CardController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +25,9 @@
 		38FF087B216696B0006D96DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38FF087E216696B0006D96DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38FF0880216696B0006D96DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38FF088B2166977E006D96DD /* StripController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripController.swift; sourceTree = "<group>"; };
 		38FF088F216697E1006D96DD /* StickFigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickFigure.swift; sourceTree = "<group>"; };
-		38FF089121669810006D96DD /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		38FF089121669810006D96DD /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		8787E2B22166A78E00F2072A /* CardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +99,8 @@
 		38FF08892166974B006D96DD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				38FF089121669810006D96DD /* Card.swift */,
 				38FF088F216697E1006D96DD /* StickFigure.swift */,
-				38FF089121669810006D96DD /* Deck.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -108,7 +108,7 @@
 		38FF088A21669751006D96DD /* ModelController */ = {
 			isa = PBXGroup;
 			children = (
-				38FF088B2166977E006D96DD /* StripController.swift */,
+				8787E2B22166A78E00F2072A /* CardController.swift */,
 			);
 			path = ModelController;
 			sourceTree = "<group>";
@@ -184,9 +184,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8787E2B32166A78E00F2072A /* CardController.swift in Sources */,
 				38FF0877216696AF006D96DD /* ViewController.swift in Sources */,
-				38FF088C2166977E006D96DD /* StripController.swift in Sources */,
-				38FF089221669810006D96DD /* Deck.swift in Sources */,
+				38FF089221669810006D96DD /* Card.swift in Sources */,
 				38FF0875216696AF006D96DD /* AppDelegate.swift in Sources */,
 				38FF0890216697E1006D96DD /* StickFigure.swift in Sources */,
 			);
@@ -335,8 +335,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S2V96BB45E;
-				INFOPLIST_FILE = "Strip-HiLo/Info.plist";
+				DEVELOPMENT_TEAM = 74SYWHWN72;
+				INFOPLIST_FILE = "$(SRCROOT)/Strip-HiLo/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -353,8 +353,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S2V96BB45E;
-				INFOPLIST_FILE = "Strip-HiLo/Info.plist";
+				DEVELOPMENT_TEAM = 74SYWHWN72;
+				INFOPLIST_FILE = "$(SRCROOT)/Strip-HiLo/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
