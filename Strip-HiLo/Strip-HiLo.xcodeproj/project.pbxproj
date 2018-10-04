@@ -8,19 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		38FF0875216696AF006D96DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF0874216696AF006D96DD /* AppDelegate.swift */; };
-		38FF0877216696AF006D96DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF0876216696AF006D96DD /* ViewController.swift */; };
+		38FF0877216696AF006D96DD /* StripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF0876216696AF006D96DD /* StripViewController.swift */; };
 		38FF087A216696AF006D96DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FF0878216696AF006D96DD /* Main.storyboard */; };
 		38FF087C216696B0006D96DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38FF087B216696B0006D96DD /* Assets.xcassets */; };
 		38FF087F216696B0006D96DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FF087D216696B0006D96DD /* LaunchScreen.storyboard */; };
 		38FF088C2166977E006D96DD /* StripController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF088B2166977E006D96DD /* StripController.swift */; };
 		38FF0890216697E1006D96DD /* StickFigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF088F216697E1006D96DD /* StickFigure.swift */; };
 		38FF089221669810006D96DD /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF089121669810006D96DD /* Deck.swift */; };
+		38FF08952166B249006D96DD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF08942166B249006D96DD /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		38FF0871216696AF006D96DD /* Strip-HiLo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Strip-HiLo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38FF0874216696AF006D96DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		38FF0876216696AF006D96DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38FF0876216696AF006D96DD /* StripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripViewController.swift; sourceTree = "<group>"; };
 		38FF0879216696AF006D96DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38FF087B216696B0006D96DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38FF087E216696B0006D96DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -28,6 +29,7 @@
 		38FF088B2166977E006D96DD /* StripController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripController.swift; sourceTree = "<group>"; };
 		38FF088F216697E1006D96DD /* StickFigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickFigure.swift; sourceTree = "<group>"; };
 		38FF089121669810006D96DD /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		38FF08942166B249006D96DD /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				38FF088821669740006D96DD /* ViewControllers */,
 				38FF088A21669751006D96DD /* ModelController */,
 				38FF08892166974B006D96DD /* Model */,
+				38FF08932166B236006D96DD /* Theme */,
 				38FF088621669730006D96DD /* Storyboards */,
 				38FF088721669738006D96DD /* Resources */,
 			);
@@ -91,7 +94,7 @@
 		38FF088821669740006D96DD /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				38FF0876216696AF006D96DD /* ViewController.swift */,
+				38FF0876216696AF006D96DD /* StripViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -111,6 +114,14 @@
 				38FF088B2166977E006D96DD /* StripController.swift */,
 			);
 			path = ModelController;
+			sourceTree = "<group>";
+		};
+		38FF08932166B236006D96DD /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				38FF08942166B249006D96DD /* Theme.swift */,
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,9 +195,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38FF0877216696AF006D96DD /* ViewController.swift in Sources */,
+				38FF0877216696AF006D96DD /* StripViewController.swift in Sources */,
 				38FF088C2166977E006D96DD /* StripController.swift in Sources */,
 				38FF089221669810006D96DD /* Deck.swift in Sources */,
+				38FF08952166B249006D96DD /* Theme.swift in Sources */,
 				38FF0875216696AF006D96DD /* AppDelegate.swift in Sources */,
 				38FF0890216697E1006D96DD /* StickFigure.swift in Sources */,
 			);
@@ -336,7 +348,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S2V96BB45E;
-				INFOPLIST_FILE = "Strip-HiLo/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Strip-HiLo/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -354,7 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S2V96BB45E;
-				INFOPLIST_FILE = "Strip-HiLo/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Strip-HiLo/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
